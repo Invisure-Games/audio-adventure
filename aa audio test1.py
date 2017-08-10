@@ -16,7 +16,6 @@ def start():
 def makeChoice():
 
     choice = ""
-
     while choice != "f" and choice != "j":
 
         print("press f to choose option 1.")
@@ -50,29 +49,29 @@ def scene6A(): #sorcerer --> ignore --> don't chase dog & explore --> hunter
     playsound('C:\Python36\wav\Scene6A.wav')
     
 def sBadEnd4(): #sorcerer --> ignore --> don't chase dog & explore --> hunter --> steal the horse // end
-    playsound('C:\Python36\wav')
-    ###########################
+    playsound('C:\Python36\wav\sBadEnd4.wav')
+    
 def sGoodEnd5(): #sorcerer --> ignore --> don't chase dog & explore -_> hunter --> ask for directions // end
-    playsound('C:\Python36\wav')
-    ###########################
+    playsound('C:\Python36\wav\sGoodEnd5.wav')
+    
 def sGoodEnd(): #sorcerer --> help --> agree // end
-    playsound('C:\Python36\wav')
-    ###########################
+    playsound('C:\Python36\wav\sGoodEnd.wav')
+    
 def scene3B(): #sorcerer --> help --> decline
-    playsound('C:\Python36\wav')
-    ###########################
+    playsound('C:\Python36\wav\scene3B.wav')
+    
 def scene4A(): #sorcerer --> help --> decline --> waterfall
-    playsound('C:\Python36\wav')
-    ###########################
+    playsound('C:\Python36\wav\scene4A.wav')
+    
 def sGoodEnd1(): #sorcerer --> help --> decline --> waterfall --> swim // end
-    playsound('C:\Python36\wav')
-    ###########################
+    playsound('C:\Python36\wav\sGoodEnd1.wav')
+    
 def sGoodEnd3(): #sorcerer --> help --> decline --> waterfall --> explore // end
-    playsound('C:\Python36\wav')
-    ###########################
+    playsound('C:\Python36\wav\sGoodEnd3.wav')
+    
 def sGoodEnd2(): #sorcerer --> help --> decline --> town // end
-    playsound('C:\Python36\wav')
-    ###########################
+    playsound('C:\Python36\wav\sGoodEnd2.wav')
+    
 def scene2C(): #apothecary --> experiment
     playsound('C:\Python36\wav\Scene2C.wav')
 
