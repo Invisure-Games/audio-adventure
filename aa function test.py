@@ -1,4 +1,4 @@
-# This is an attempt at rewriting our adventure game code.
+# Adventure game code re-write.
 # < < https://coderdojoathenry.org/category/python-beginners/page/2/ > > #
 
 import time
